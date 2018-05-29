@@ -2,6 +2,7 @@ libQt5Gamepad.so.5:Qt_5
 libQt5Gamepad.so.5:Qt_5.0
 libQt5Gamepad.so.5:Qt_5.1
 libQt5Gamepad.so.5:Qt_5.10
+libQt5Gamepad.so.5:Qt_5.11
 libQt5Gamepad.so.5:Qt_5.2
 libQt5Gamepad.so.5:Qt_5.3
 libQt5Gamepad.so.5:Qt_5.4
@@ -14,6 +15,7 @@ libQt5Gamepad.so.5:Qt_5_PRIVATE_API
 libQt5Gamepad.so.5:_ZN15QGamepadBackend11qt_metacallEN11QMetaObject4CallEiPPv
 libQt5Gamepad.so.5:_ZN15QGamepadBackend11qt_metacastEPKc
 libQt5Gamepad.so.5:_ZN15QGamepadBackend12gamepadAddedEi
+libQt5Gamepad.so.5:_ZN15QGamepadBackend12gamepadNamedEiRK7QString
 libQt5Gamepad.so.5:_ZN15QGamepadBackend12readSettingsEi
 libQt5Gamepad.so.5:_ZN15QGamepadBackend12saveSettingsEiRK8QVariant
 libQt5Gamepad.so.5:_ZN15QGamepadBackend13configureAxisEiN15QGamepadManager11GamepadAxisE
@@ -42,6 +44,7 @@ libQt5Gamepad.so.5:_ZN15QGamepadManager15setSettingsFileERK7QString
 libQt5Gamepad.so.5:_ZN15QGamepadManager16buttonConfiguredEiNS_13GamepadButtonE
 libQt5Gamepad.so.5:_ZN15QGamepadManager16gamepadAxisEventEiNS_11GamepadAxisEd
 libQt5Gamepad.so.5:_ZN15QGamepadManager16gamepadConnectedEi
+libQt5Gamepad.so.5:_ZN15QGamepadManager18gamepadNameChangedEiRK7QString
 libQt5Gamepad.so.5:_ZN15QGamepadManager18resetConfigurationEi
 libQt5Gamepad.so.5:_ZN15QGamepadManager19gamepadDisconnectedEi
 libQt5Gamepad.so.5:_ZN15QGamepadManager21configurationCanceledEi
@@ -141,6 +144,7 @@ libQt5Gamepad.so.5:_ZN8QGamepadD1Ev
 libQt5Gamepad.so.5:_ZN8QGamepadD2Ev
 libQt5Gamepad.so.5:_ZNK15QGamepadBackend10metaObjectEv
 libQt5Gamepad.so.5:_ZNK15QGamepadManager10metaObjectEv
+libQt5Gamepad.so.5:_ZNK15QGamepadManager11gamepadNameEi
 libQt5Gamepad.so.5:_ZNK15QGamepadManager17connectedGamepadsEv
 libQt5Gamepad.so.5:_ZNK15QGamepadManager18isGamepadConnectedEi
 libQt5Gamepad.so.5:_ZNK15QGamepadManager21isConfigurationNeededEi
