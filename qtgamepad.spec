@@ -4,7 +4,7 @@
 #
 Name     : qtgamepad
 Version  : 5.11.1
-Release  : 3
+Release  : 4
 URL      : http://download.qt.io/official_releases/qt/5.11/5.11.1/submodules/qtgamepad-everywhere-src-5.11.1.tar.xz
 Source0  : http://download.qt.io/official_releases/qt/5.11/5.11.1/submodules/qtgamepad-everywhere-src-5.11.1.tar.xz
 Summary  : No detailed summary available
@@ -12,7 +12,6 @@ Group    : Development/Tools
 License  : GPL-3.0 LGPL-3.0
 Requires: qtgamepad-lib
 Requires: qtgamepad-license
-Requires: qtbase = 5.10.0
 BuildRequires : cmake
 BuildRequires : mesa-dev
 BuildRequires : pkgconfig(Qt5Core)
@@ -67,7 +66,7 @@ test -r config.log && cat config.log
 make  %{?_smp_mflags}
 
 %install
-export SOURCE_DATE_EPOCH=1530976778
+export SOURCE_DATE_EPOCH=1531259433
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/doc/qtgamepad
 cp LICENSE.LGPLv3 %{buildroot}/usr/share/doc/qtgamepad/LICENSE.LGPLv3
