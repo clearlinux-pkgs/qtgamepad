@@ -4,7 +4,7 @@
 #
 Name     : qtgamepad
 Version  : 5.11.1
-Release  : 4
+Release  : 5
 URL      : http://download.qt.io/official_releases/qt/5.11/5.11.1/submodules/qtgamepad-everywhere-src-5.11.1.tar.xz
 Source0  : http://download.qt.io/official_releases/qt/5.11/5.11.1/submodules/qtgamepad-everywhere-src-5.11.1.tar.xz
 Summary  : No detailed summary available
