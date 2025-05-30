@@ -2,3 +2,9 @@
 # but are undesirable. One entry per line, no whitespace.
 Qt5Gamepad
 Qt5Scxml
+Qt6Gamepad
+Qt6Scxml
+Qt6Core
+Qt6Gui
+Qt6Qml
+Qt6Quick
